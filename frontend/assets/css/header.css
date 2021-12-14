@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    opacity: 1;
+    color: yellow;
+}
+
+.logo {
+    width: 180px;
+}
+
+nav {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    background: rgb(4, 4, 56);
+    height: 7vh;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    margin-top: 12px;
+}
+
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
