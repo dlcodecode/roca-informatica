@@ -23,7 +23,7 @@ function criaLinha(usuario) {
 }
 
 function main() {
-    let usuarios = JSON.parse(this.fazGet("http://https://api-roca.herokuapp.com/products")) //vem como uma string, ai preciso transformar em JSON, por isso o JSON.parse
+    let usuarios = JSON.parse(this.fazGet("https://api-roca.herokuapp.com/products")) //vem como uma string, ai preciso transformar em JSON, por isso o JSON.parse
     let tabela = document.getElementById("tabela")
 
     usuarios.forEach(element => {
@@ -36,7 +36,7 @@ this.main()
 
 function cadastraUsuario() {
     event.preventDefault() //para evitar que a página carregue ao fazer o onSubmit
-    let url = "http://https://api-roca.herokuapp.com/products"
+    let url = "https://api-roca.herokuapp.com/products"
 
     let nome = document.getElementById("nome").value
     let email = document.getElementById("email").value
