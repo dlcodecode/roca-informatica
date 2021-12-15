@@ -26,6 +26,22 @@
                 <li> <a href="/"> Sobre </a></li>
         </nav>
     </header>
-    <main> </main>
+
+    <script src="assets/post.js"></script>
+    <main> 
+        <form onsubmit="cadastraUsuario()">
+            <label style="color: white;" for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome">
+            <br><br>
+            <label style="color: white;" for="email">Email:</label>
+            <input type="text" name="email" id="email">
+            <br><br>
+            <!--<input type="text" name="comentario" id="comentario" value="Deixe seu comentário!">-->
+            <textarea name="comentario" id="comentario">Deixe seu comentário!!</textarea>
+            <br><br>
+            <button type="submit">Enviar</button> <!--irá chamar a função onSubmit lá em cima-->
+        </form>
+
+    </main>
 </body>
 </html>
