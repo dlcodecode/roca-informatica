@@ -1,5 +1,5 @@
 main {
-    background: url(../img/941aaedab69653ef7f5fd99c01e1e5d1.jpg) no-repeat center center;
+    background: url(../img/Cloudy.svg) no-repeat center center fixed;
     background-size: cover;
     height: 92vh;
 }
@@ -16,4 +16,42 @@ td, tr, table {
     margin-top: 20px;
     padding: 5px;
     margin-bottom: 40px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+} 
+
+.tituloDaPagina {
+    margin-top: 2.5rem;
+}
+
+.tituloDaPagina h2 {
+    text-align: center;
+}
+
+.imagensEsquerdaTitulo {
+    width: 5%;
+}
+
+.imagensDireitaTitulo {
+    width: 3%;
+    background-color: aliceblue;
+}
+
+.carossel {
+    background-color: currentColor;
+    
+}
+
+.carousel {
+    width: 50%;
+    position: fixed;
+}
+
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
 }
