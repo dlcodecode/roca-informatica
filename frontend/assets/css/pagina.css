@@ -1,9 +1,7 @@
 body {
-    background: url(../img/Cloudy.svg) no-repeat center center fixed;
-    background-size: cover;
-    height: 92vh;
     font-family: 'Open Sans', sans-serif;
     font-size: 1rem;
+    overflow-x: hidden;
 }
 
 td, tr, table {
@@ -25,40 +23,13 @@ h1, h2, h3, h4, h5, h6 {
     box-sizing: border-box;
 }
 
-.tituloDaPagina {
-    margin-top: 2.5rem;
-}
-
 .tituloDaPagina h2 {
+    margin-top: 5%;
     text-align: center;
+    color: rgb(243, 241, 134);
 }
-
-.imagensEsquerdaTitulo {
-    width: 5%;
-}
-
-.imagensDireitaTitulo {
-    width: 3%;
-    background-color: aliceblue;
-}
-
-.carousel {
-    width: 55%;
-}
-
-.carrossel {
-    position : relative;
-    z-index : 99;
-}
-
 .texto {
     text-align: center;
-    margin-top: 25%;
-}
-
-.container {
-    background-color:rgb(255, 255, 255);
-    width: 55%;
 }
 
 .avaliacoes h1 {
@@ -67,3 +38,42 @@ h1, h2, h3, h4, h5, h6 {
     color:rgb(18, 4, 97);
 }
 
+.imagens_servicos {
+    border-style: solid;
+    border-color: #000620;
+    background: url(../img/background.svg) no-repeat center center;
+    background-size: cover;
+    height: 800px;
+}
+.imagens_servicos h1, h2, h3, h4, h5 {
+    color:rgb(255, 255, 255);
+}
+
+.textos_e_botao {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.textos_e_botao h3 {
+    color: rgb(243, 241, 134);
+}
+
+.btn-custom {
+    color: rgb(255, 255, 255);
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px; 
+    padding: 10px 35px;
+    margin: 0px 15px;
+    text-transform: uppercase;
+    transition: background 0.4s, color 0.4s;
+}
+.btn-amarelo {
+    background: rgb(214, 192, 68);
+    margin-top: 2%;
+}
+
+.btn-amarelo:hover {
+    background-color: rgb(80, 8, 175);
+    color: rgb(253, 253, 253);
+}
