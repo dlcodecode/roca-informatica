@@ -2,6 +2,9 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 1rem;
     overflow-x: hidden;
+    background: url(../img/backgrouservicos.svg) center center;
+    background-size: contain;
+    background-position:left;
 }
 
 td, tr, table {
@@ -76,4 +79,43 @@ h1, h2, h3, h4, h5, h6 {
 .btn-amarelo:hover {
     background-color: rgb(80, 8, 175);
     color: rgb(253, 253, 253);
+}
+
+.texto_servico {
+    text-align: center;
+    border: solid;
+    margin-top: 5%;
+    background-color: aliceblue;
+    border-radius: 20px 110px 14px 50px;
+
+}
+
+.texto_servico h3 {
+    color: #4d2da3;
+}
+
+.texto_servico h5 {
+    color: rgb(0, 0, 0);
+}
+
+.titulo_servicos {
+    color: #4d2da3;
+    margin-top: 4%;
+    text-align: center;
+}
+
+.servicos {
+    
+}
+
+.reparo_img {
+    width: 70%;
+}
+
+.design_img {
+    width: 70%;
+}
+
+.velocidade_img {
+    width: 70%;
 }
