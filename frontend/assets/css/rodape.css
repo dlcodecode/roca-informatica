@@ -1,0 +1,18 @@
+.rodape {
+    background-color: #000620;
+}
+
+.rodape li {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.rodape li:hover {
+    opacity: 1;
+    color: yellow;
+}
+
+.conteudo {
+    margin-top: 2%;
+}
