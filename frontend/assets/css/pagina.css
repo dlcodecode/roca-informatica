@@ -71,12 +71,23 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
     transition: background 0.4s, color 0.4s;
 }
+
 .btn-amarelo {
     background: rgb(214, 192, 68);
     margin-top: 2%;
 }
 
 .btn-amarelo:hover {
+    background-color: rgb(80, 8, 175);
+    color: rgb(253, 253, 253);
+}
+
+.btn-roxo {
+    background: rgb(214, 192, 68);
+    margin-top: 2%;
+}
+
+.btn-roxo:hover {
     background-color: rgb(80, 8, 175);
     color: rgb(253, 253, 253);
 }
