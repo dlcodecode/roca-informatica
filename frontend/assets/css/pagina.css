@@ -2,9 +2,13 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 1rem;
     overflow-x: hidden;
-    background: url(../img/backgrouservicos.svg) center center;
-    background-size: contain;
+    background-size: cover;
     background-position:left;
+}
+
+.servicos {
+    background: url(../img/Sound\ Wave\ \(1\).svg) no-repeat center center;
+    background-size: cover;
 }
 
 td, tr, table {
@@ -98,11 +102,13 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 5%;
     background-color: aliceblue;
     border-radius: 20px 110px 14px 50px;
+    margin-left: 10%;
+    margin-right: 15%;
 
 }
 
 .texto_servico h3 {
-    color: #4d2da3;
+    color: rgb(80, 8, 175);
 }
 
 .texto_servico h5 {
@@ -110,8 +116,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .titulo_servicos {
-    color: #4d2da3;
-    margin-top: 4%;
+    color: rgb(80, 8, 175);
     text-align: center;
 }
 
@@ -121,12 +126,16 @@ h1, h2, h3, h4, h5, h6 {
 
 .reparo_img {
     width: 70%;
+    margin-left: 30%;
 }
 
 .design_img {
     width: 70%;
+    margin-left: 30%;
 }
 
 .velocidade_img {
     width: 70%;
+    margin-left: 30%;
 }
+
