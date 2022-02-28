@@ -81,8 +81,9 @@
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    background: url(../img/rtx3080.png) no-repeat center center;
+    background: url(../img/usuario.png) no-repeat center center;
     background-size: cover;
+    background-color: aliceblue;
 }
 
 .card .autor .info {

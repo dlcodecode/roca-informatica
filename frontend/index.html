@@ -29,7 +29,7 @@
 <body>
   <header class="grid-header">
     <nav>
-      <a> <img class="logo" src="../frontend/assets/img/LogotipoRoca.png"> </a>
+      <a href="logo"> <img class="logo" src="../frontend/assets/img/LogotipoRoca.png"> </a>
 
       <div class="mobile-menu">
         <div class="line1"> </div>
@@ -38,19 +38,18 @@
       </div>
 
       <ul class="nav-list">
-        <li> <a href="#"> Início </a></li>
-        <li> <a href="#"> Serviços </a></li>
-        <li> <a href="#"> Produtos </a></li>
-        <li> <a href="#"> Avaliações </a></li>
-        <li> <a href="#"> Contato </a></li>
-        <li> <a href="#"> Sobre </a></li>
+        <li> <a href="#inicio"> Início </a></li>
+        <li> <a href="#servicos"> Serviços </a></li>
+        <li> <a href="#produtos"> Produtos </a></li>
+        <li> <a href="#avaliacoes"> Avaliações </a></li>
+        <li> <a href="#contato"> Contato </a></li>
     </nav>
   </header>
 
   <div class="imagens_servicos col-md-12">
 
     <div class="tituloDaPagina col-md-12">
-      <h2>
+      <h2 id="inicio">
         Seja bem vindo a RoCa Informática! Produtos e serviços de Técnologia para o seu negócio
       </h2>
     </div>
@@ -75,7 +74,7 @@
   <div class="servicos">
     <br>
     <br>
-    <h2 class="titulo_servicos"> Temos o essencial para que sua maquina seja potente e nunca te deixe na mão! </h2>
+    <h2 id="servicos" class="titulo_servicos"> Temos o essencial para que sua maquina seja potente e nunca te deixe na mão! </h2>
     <div class="row reparo">
       <div class="col">
         <img src="assets/img/undraw_bug_fixing_oc7a-removebg-preview.png" class="reparo_img">
@@ -122,6 +121,7 @@
   <div class="produtos">
     <div class="row">
       <div class="col">
+        <h2 id="produtos"> Trabalhamos com as melhores tecnlogias do mercado, para que voce tenha o melhor desempenho!</h2>
         <h2> SSD'S </h2>
         <div class="container cards">
           <div class="card">
@@ -542,7 +542,7 @@
     <div class="row">
       <div class="col"></div>
 
-      <h1> Avaliações dos Clientes </h1>
+      <h1 id="avaliacoes"> Avaliações dos Clientes </h1>
 
       <table id="tabela"></table>
       <form onsubmit="cadastraUsuario()">
@@ -564,7 +564,7 @@
     <div class="container-fluid conteudo">
       <div class="row">
         <div class="col-md-3 text-light text-center">
-          <h5>Contatos</h5> <span class="bi bi-telephone"></span>
+          <h5 id="contato"> Contatos</h5> <span class="bi bi-telephone"></span>
           <ul class="list-unstyled text-small">
             
             <li><a class="" href="https://api.whatsapp.com/send?phone=5511969314508&text=Ol%C3%A1"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">

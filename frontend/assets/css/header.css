@@ -110,3 +110,8 @@ nav {
     grid-template-columns: repeat(auto-fill, minmax(1fr));
     z-index: -1;
 }
+
+nav {
+    position: fixed;
+    width: 100%;
+}
