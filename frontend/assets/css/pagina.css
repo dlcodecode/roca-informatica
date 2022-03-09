@@ -7,8 +7,8 @@ body {
 }
 
 .servicos {
-    background: url(../img/Sound\ Wave\ \(1\).svg) no-repeat center center;
-    background-size: cover;
+   background: linear-gradient(50deg,#cecece, rgb(66, 37, 231));
+   background-size: cover;
 }
 
 td, tr, table {
@@ -116,7 +116,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .titulo_servicos {
-    color: rgb(80, 8, 175);
+    color: #fff;
     text-align: center;
 }
 
