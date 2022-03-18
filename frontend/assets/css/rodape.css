@@ -1,10 +1,10 @@
-
 .rodape {
     background-color: #000620;
+    border: solid;
+    border-color: #000620;
 }
 
 .rodape li {
-    color: white;
     text-decoration: none;
     transition: 0.3s;
 }
@@ -17,3 +17,5 @@
 .conteudo {
     margin-top: 2%;
 }
+
+
