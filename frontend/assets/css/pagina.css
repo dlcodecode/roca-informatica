@@ -1,3 +1,7 @@
+.mapa-tecnologico {
+    width: 90%;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 1rem;
@@ -7,15 +11,9 @@ body {
 }
 
 .intro_site{ 
-    background: linear-gradient(50deg,#f8f8f8, rgb(226, 94, 94));
-    background-size: cover;
-}
-
-.servicos {
-   background: linear-gradient(50deg,#cecece, rgb(66, 37, 231));
+   background: linear-gradient(50deg,#f8f8f8, rgb(226, 94, 94));
    background-size: cover;
 }
-
 
 td, tr, table {
     border: rgb(27, 38, 99);
@@ -102,43 +100,52 @@ h1, h2, h3, h4, h5, h6 {
     color: rgb(253, 253, 253);
 }
 
-.texto_servico {
-    text-align: center;
-    border: solid;
-    margin-top: 5%;
-    background-color: aliceblue;
-    border-radius: 20px 110px 14px 50px;
+.apresentacoes {
+    margin-left: 23%;
+}
+
+.apresentacaoFunc {
+    width: 90%;
+}
+
+.faleConosco {
+    width: 50%;
+    margin-left: 25%;
+}
+
+.clientes {
+    width: 90%;
     margin-left: 10%;
-    margin-right: 15%;
-
 }
-
-.texto_servico h3 {
-    color: rgb(80, 8, 175);
-}
-
-.texto_servico h5 {
-    color: rgb(0, 0, 0);
-}
-
 .titulo_servicos {
-    color: #fff;
+    color: rgb(27, 38, 99);
     text-align: center;
 }
-
 
 .reparo_img {
     width: 70%;
     margin-left: 30%;
 }
 
-.design_img {
-    width: 70%;
-    margin-left: 30%;
+.texto_servico {
+    color:rgb(255, 255, 255);
+    text-align: center;
+    margin-right: 1%;
 }
 
-.velocidade_img {
-    width: 70%;
-    margin-left: 30%;
+.texto_servico2 {
+    color:rgb(0, 0, 0);
+    text-align: center;
+    margin-right: 1%;
+}
+
+.background_texto_servico {
+    background: #060e31;
+    border-radius: 15px;
+}
+
+.background_texto_servico_cinza {
+    background: #727377;
+    border-radius: 15px;
 }
 

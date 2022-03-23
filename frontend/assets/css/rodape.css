@@ -1,8 +1,6 @@
 .rodape {
-    background-color: #000620;
-    border: solid;
-    border-color: #000620;
-}
+    background: linear-gradient(50deg,#f8f8f8, rgb(226, 94, 94));
+    border-radius:  10px 10px 0px 0px;}
 
 .rodape li {
     text-decoration: none;
@@ -11,11 +9,15 @@
 
 .rodape li:hover {
     opacity: 1;
-    color: yellow;
+    color: rgb(226, 94, 94);
 }
 
 .conteudo {
-    margin-top: 2%;
+    margin-top: 1%;
 }
 
+.rodape_letras h1, h2, h3, h4, h5, a, li, ul {
+    color: rgb(14, 18, 41);
+}
 
+ 

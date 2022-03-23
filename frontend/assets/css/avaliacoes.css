@@ -1,11 +1,9 @@
 .avaliacoes {
-    background: linear-gradient(50deg,#cecece, rgb(66, 37, 231));
-    border: solid;
-    border-color:#000620;
+    background: white;
 }
 
-.avaliacoes h1, h2, h3, h4, h5, a {
-    color: aliceblue;
+.avaliacoes {
+    color: rgb(27, 38, 99);
 }
 
 .btn-custom-aval {
@@ -21,11 +19,11 @@
 }
 
 .btn-transition-purple {
-    background: rgb(214, 192, 68);
+    background: rgb(226, 94, 94);
 }
 
 .btn-transition-purple:hover {
-    background-color: rgb(80, 8, 175);
+    background-color: rgb(27, 38, 99);
     color: rgb(253, 253, 253);
 }
 
@@ -53,6 +51,7 @@
     justify-content: space-between;
     margin-left: -145px;
     transition: .4s;
+    border-color: black;
 }
 
 .card:hover{
