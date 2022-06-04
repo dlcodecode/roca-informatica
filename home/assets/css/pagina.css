@@ -62,7 +62,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .tituloDaPagina h2 {
-    margin-top: 5%;
     text-align: center;
     color:rgb(255, 255, 255);
 }
@@ -168,3 +167,6 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 15px;
 }
 
+#inicio {
+    margin-top: 10px;
+}
