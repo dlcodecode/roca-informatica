@@ -1,7 +1,7 @@
 .principal {
     width: 100%;
     background: linear-gradient(50deg,#f8f8f8, rgb(4, 12, 124));
-   background-size: cover;
+    background-size: cover;
 }
 
 .principal h3 {
@@ -21,7 +21,6 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    display: block;
 }
 
 .itemGaleria {
@@ -97,4 +96,21 @@
 
 .itemGaleria:hover {
     transform: scale(1.2);
+}
+
+@media (max-width: 810px) {
+    .galeria {
+        display: inline;
+        height: 100%;
+    }
+
+
+    .galeria {
+        width: 100%;
+    }
+
+    .itemGaleria-item03 {
+        display: none;
+    }
+
 }
