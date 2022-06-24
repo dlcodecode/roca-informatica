@@ -122,11 +122,6 @@
     margin-bottom: 5%;
 }
 
-.card {
-    margin-left: 40%;
-    align-items: center;
-}
-
 .container .card:nth-child(1) {
     margin-left: 0;
 }
@@ -139,4 +134,12 @@
     text-align: center;
     margin-top: 4%;
     margin-bottom: -2%;
+}
+
+@media (max-width: 810px) {
+    .card {
+        margin-left: 50%;
+        align-items: center;
+    }
+
 }
