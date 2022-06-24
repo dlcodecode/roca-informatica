@@ -1,12 +1,13 @@
 .principal {
     width: 100%;
     background: linear-gradient(50deg,#f8f8f8, rgb(4, 12, 124));
-   background-size: cover;
+    background-size: cover;
 }
 
 .principal h3 {
     text-align: center;
     margin-top: 3%;
+    display: block;
 }
 
 .galeria {
@@ -21,7 +22,6 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    display: block;
 }
 
 .itemGaleria {
@@ -42,8 +42,6 @@
 .item03 {
     grid-column: 9/span 4;
     grid-row: 1/span 4;
-    width: 500px;
-    height: 380px;
 }
 
 .item04 {
@@ -97,4 +95,21 @@
 
 .itemGaleria:hover {
     transform: scale(1.2);
+}
+
+@media (max-width: 810px) {
+    .galeria {
+        display: inline;
+        height: 100%;
+    }
+
+
+    .galeria {
+        width: 100%;
+    }
+
+    .item03 {
+        display: none;
+    }
+
 }

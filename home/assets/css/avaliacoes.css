@@ -82,3 +82,22 @@
     margin-left: 39%;
 }
 
+.row-avaliacoes {
+    width: 100%;
+}
+
+@media (max-width: 810px) {
+    .avaliacoes1 {
+
+    }
+    .avaliacoes2 {
+        display: none;
+    }
+    
+    .avaliacoes3 {
+        display: none;
+    }
+
+
+}
+
