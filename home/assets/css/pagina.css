@@ -170,3 +170,9 @@ h1, h2, h3, h4, h5, h6 {
 #inicio {
     margin-top: 10px;
 }
+
+.servicos_concluidos {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-color: #201F1D;
+}

@@ -1,5 +1,5 @@
 #mainSlider .carousel-inner, #mainSlider .carousel-item {
-    height: 100vh;
+    height: 70vh;   
 }
 
 #mainSlider .carousel-caption {
@@ -7,7 +7,7 @@
 }
 
 .carousel-indicators .active {
-    background-color: rgb(150, 150, 150);
+    background-color: #3D4181;
 }
 
 .img1 {
@@ -22,4 +22,8 @@
 .img3 {
     height: 100%;
     width: 100%; 
+}
+
+.carousel {
+    margin-top: -9px;
 }
