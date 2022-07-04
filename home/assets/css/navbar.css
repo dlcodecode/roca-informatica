@@ -1,0 +1,15 @@
+.navbar a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.navbar a:hover {
+    opacity: 1;
+    color: rgb(226, 94, 94);
+}
+
+.navbar-nav li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
