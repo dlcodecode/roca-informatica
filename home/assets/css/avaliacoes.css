@@ -15,6 +15,7 @@
     transition: 0.4s, color 0.4s;
     width: 25%;
     max-width: 500px;
+    min-width: 100px;
 
     /*Align Items*/
     margin-left: auto;
@@ -98,12 +99,6 @@
 }
 
 @media (max-width: 399px) {
-    .btn-custom-aval {
-        display: none;
-    }
-    .avaliacoes1 {
-
-    }
     .avaliacoes2 {
         display: none;
     }
