@@ -13,3 +13,22 @@
 .carousel {
     margin-top: -9px;
 }
+
+#mainSlider2 {
+    height: 100%;   
+}
+
+#mainSlider2 .carousel-caption {
+    top: 30%
+}
+
+.img1, .img2, .img3, .img5 {
+    width: 1905px;
+    height: 685px;
+}
+
+.img3{
+    width: 1905px;
+    height: 710px;
+}
+

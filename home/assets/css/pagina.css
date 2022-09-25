@@ -124,7 +124,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .apresentacaoFunc {
-    width: 90%;
+    width: 100%;
 }
 
 .faleConosco {
@@ -147,25 +147,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .texto_servico {
-    color:rgb(255, 255, 255);
+    color:rgb(3, 3, 3);
     text-align: center;
     margin-right: 1%;
-}
-
-.texto_servico2 {
-    color:rgb(0, 0, 0);
-    text-align: center;
-    margin-right: 1%;
-}
-
-.background_texto_servico {
-    background: #060e31;
-    border-radius: 15px;
-}
-
-.background_texto_servico_cinza {
-    background: #727377;
-    border-radius: 15px;
 }
 
 .servicos_concluidos {
