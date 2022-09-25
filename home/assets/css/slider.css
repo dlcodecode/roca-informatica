@@ -1,0 +1,15 @@
+#mainSlider .carousel-inner, #mainSlider .carousel-item {
+    height: 70vh;   
+}
+
+#mainSlider .carousel-caption {
+    top: 30%
+}
+
+.carousel-indicators .active {
+    background-color: #3D4181;
+}
+
+.carousel {
+    margin-top: -9px;
+}

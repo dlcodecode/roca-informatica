@@ -32,6 +32,7 @@ body {
 .intro_site{ 
    background: linear-gradient(50deg,#f8f8f8, rgb(4, 12, 124));
    background-size: cover;
+   padding-top: 120px;
 }
 
 td, tr, table {
@@ -167,6 +168,9 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 15px;
 }
 
-#inicio {
-    margin-top: 10px;
+.servicos_concluidos {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-color: #201F1D;
 }
+

@@ -15,47 +15,55 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
     crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="./home/assets/css/header.css">
-  <link rel="stylesheet" href="./home/assets/css/pagina.css">
-  <link rel="stylesheet" href="./home/assets/css/cards.css">
-  <link rel="stylesheet" href="./home/assets/css/rodape.css">
-  <link rel="stylesheet" href="./home/assets/css/avaliacoes.css">
+  <link rel="stylesheet" href="./assets/css/navbar.css">
+  <link rel="stylesheet" href="./assets/css/pagina.css">
+  <link rel="stylesheet" href="./assets/css/cards.css">
+  <link rel="stylesheet" href="./assets/css/rodape.css">
+  <link rel="stylesheet" href="./assets/css/avaliacoes.css">
+  <link rel="stylesheet" href="./assets/css/slider.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
     href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="./home/assets/css/imageGallery.css">
-  <script src="./home/assets/js/mobile-navbar.js" defer></script>
+  <link rel="stylesheet" href="./assets/img/imgGallery/">
+  <script src="./assets/js/mobile-navbar.js" defer></script>
+  <script src="./assets/js/carrossel.js"></script>
 </head>
 
 <body>
-  <header class="grid-header">
-    <nav>
-      <a href="#inicio"> <img class="logo" src="./home/assets/img/NOVO_LOGOTIPO_2-removebg-preview.png"> </a>
-
-      <div class="mobile-menu">
-        <div class="line1"> </div>
-        <div class="line2"> </div>
-        <div class="line3"> </div>
+  <nav class="navbar navbar-expand-md bg-light navbar-light fixed-top ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#inicio">  <img class="logotipo_nav" src="assets/img/logotipo para a navbar.png"> </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a  href="#inicio"> Início </a>
+          </li>
+          <li class="nav-item">
+            <a  href="#servicos"> Serviços </a>
+          </li>
+          <li class="nav-item">
+            <a  href="#produtos"> Produtos </a>
+          </li>
+          <li class="nav-item">
+            <a  href="#avaliacoes"> Avaliações </a>
+          </li>
+          <li class="nav-item">
+            <a  href="#contato"> Contato </a>
+          </li>
+        </ul>
       </div>
-
-      <ul class="nav-list">
-        <li> <a href="#inicio"> Início </a></li>
-        <li> <a href="#servicos"> Serviços </a></li>
-        <li> <a href="#produtos"> Produtos </a></li>
-        <li> <a href="#avaliacoes"> Avaliações </a></li>
-        <li> <a href="#contato"> Contato </a></li>
-      </ul>
-    </nav>
-  </header>
+    </div>
+  </nav>
 
   <div class="intro_site col-md-12">
     <div class="tituloDaPagina">
-    </br>
-      </br>
-      </br>
       <h2 id="inicio">
         Seja bem vindo a RoCa Informática! Produtos e serviços de Técnologia para o seu negócio
       </h2>
@@ -76,10 +84,10 @@
         </div>
       </div>
       <div class="col-md-4">
-        <img class="imagem_intro_site" src="./home/assets/img/poder operacional.svg">
+        <img class="imagem_intro_site" src="./assets/img/poder operacional.svg">
       </div>
       <div class="col-md-4">
-        <img class="imagem_intro_site" src="./home/assets/img/manutencao notebook.svg">
+        <img class="imagem_intro_site" src="./assets/img/manutencao notebook.svg">
       </div>
     </div>
     </br>
@@ -88,6 +96,50 @@
   <a href="https://web.whatsapp.com/send?phone=5511969314508" target="_blank" class="botao_wpp">
     <i class="fa fa-whatsapp"> </i>
   </a>
+
+  <!-- slider -->
+  <h2 class="servicos_concluidos"> Serviços Concluídos </h2>
+
+  <div id="mainSlider" class="carousel slide col-md-12" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-bs-target="#mainSlider" data-bs-slide-to="0" class="active"></li>
+      <li data-bs-target="#mainSlider" data-bs-slide-to="1"></li>
+      <li data-bs-target="#mainSlider" data-bs-slide-to="2"></li>
+      <li data-bs-target="#mainSlider" data-bs-slide-to="3"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="../home/assets/img/imgGallery/SETUP GAMER LG.png" class="img1 w-100"
+          alt="Setup gamer com monitor lg">
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/img/imgGallery/setup gamer 2.png" class="img2"
+          alt="setup2">
+        <div class="carousel-caption d-md-block">
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/img/imgGallery/macAppleUpgrade.png" class="img3"
+          alt="Upgrade em mac, memoria ram e ssd">
+        <div class="carousel-caption d-md-block">
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/img/imgGallery/notebook Dell.png" class="img4"
+          alt="noteboo dell, upgrade de memoria ram e nvme">
+        <div class="carousel-caption d-md-block">
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#mainSlider" role="button" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only"> </span>
+    </a>
+    <a class="carousel-control-next" href="#mainSlider" role="button" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only"> </span>
+    </a>
+  </div>
 
   <div class="servicos">
     <br>
@@ -98,7 +150,7 @@
     <br>
     <div class="row">
       <div class="col-md-6">
-        <img src="./home/assets/img/mapa tecnologico.jpeg" class="mapa-tecnologico">
+        <img src="./assets/img/mapa tecnologico.jpeg" class="mapa-tecnologico">
       </div>
       <div class="col-md-6">
         <div class="background_texto_servico">
@@ -142,68 +194,24 @@
     </br>
     <div class="row">
       <div class="col">
-        <img src="./home/assets/img/apresentações.jpeg" class="apresentacoes">
+        <img src="./assets/img/apresentações.jpeg" class="apresentacoes">
       </div>
     </div>
     </br>
-    <main class="principal">
-      <div class="row">
-        <h3> Serviços concluídos </h3>
-        <div class="col d-flex justify-content-center">
-          <section class="galeria">
-            <figure class="itemGaleria item01">
-              <img src="./home/assets/img/imgGallery/img01.png" class="imgGaleria">
-            </figure>
-            <figure class="itemGaleria item02">
-              <img src="./home/assets/img/imgGallery/img02.png" class="imgGaleria">
-            </figure>
-            <figure class="itemGaleria-item03">
-              <img src="./home/assets/img/serviços/292e11e3-be09-42b3-9764-38f2ddd0a065.jpg" class="imgGaleria">
-            </figure>
-            <figure class="itemGaleria item04">
-              <img src="./home/assets/img/serviços/32c1f218-ba37-4231-8ad4-cc50d77fa6d8.jpg" class="imgGaleria">
-            </figure>
-            <figure class="itemGaleria item05">
-              <img src="./home/assets/img/serviços/38ab21f8-664a-4cf8-a789-2b7b3068be2b.jpg" class="imgGaleria">
-            </figure>
-            <figure class="itemGaleria item06">
-              <img src="./home/assets/img/serviços/7862dd27-3a62-4ca6-a351-2691640aab74.jpg" class="imgGaleria">
-            </figure>
-            <figure class="itemGaleria item07">
-              <img src="./home/assets/img/serviços/7f08d3a8-9350-4e0b-95c1-fa6d9ca75502.jpg" class="imgGaleria">
-            </figure>
-            <figure class="itemGaleria item08">
-              <img src="./home/assets/img/serviços/a3cf6393-84aa-4985-85d6-283aaa604991.jpg" class="imgGaleria">
-            </figure>
-            <figure class="itemGaleria item09">
-              <img src="./home/assets/img/serviços/notebook samsung.jpg" class="imgGaleria">
-            </figure>
-            <figure class="itemGaleria item10">
-              <img src="./home/assets/img/serviços/d8bd06b0-54d9-4cd3-a7ab-f83516c08ff8.jpg" class="imgGaleria">
-            </figure>
-            <figure class="itemGaleria item11">
-              <img src="./home/assets/img/serviços/wd m.2 green 480gb.jpg" class="imgGaleria">
-            </figure>
-            <figure class="itemGaleria item12">
-              <img src="./home/assets/img/serviços/pc gamer rgb verde.png" class="imgGaleria">
-            </figure>
-          </section>
-        </div>
-      </div>
-    </main>
+    
     </br>
     <div class="row">
       <div class="col-md-6">
-        <img src="./home/assets/img/apresentação funcionarios.jpeg" class="apresentacaoFunc">
+        <img src="./assets/img/apresentação funcionarios.jpeg" class="apresentacaoFunc">
       </div>
       <div class="col-md-6">
-        <img src="./home/assets/img/clientes.jpeg" class="clientes">
+        <img src="./assets/img/clientes.jpeg" class="clientes">
       </div>
     </div>
     </br>
     <div class="row">
       <div class="col">
-        <img src="./home/assets/img/fale conosco.jpeg" class="faleConosco">
+        <img src="./assets/img/fale conosco.jpeg" class="faleConosco">
       </div>
     </div>
     </br>
@@ -212,14 +220,15 @@
   <div class="produtos">
     <div class="row">
       <div class="col">
-        <h2 id="produtos"> Trabalhamos com as melhores tecnologias do mercado, para que voce tenha o melhor desempenho!
+        <h2 id="produtos"> Trabalhamos com as melhores tecnologias do mercado, para que voce tenha o melhor
+          desempenho!
         </h2>
         <h2> SSD'S </h2>
-        <div class="container-cards">
+        <div class="container cards">
           <div class="card">
             <div class="data"> Roca <time>16/02/2022</time> </div>
             <h5>SSD Adata XPG Spectrix S40G 512GB, M.2, Leitura 3500MB/s, Gravação 2400MB/s</h5>
-            <div> <img src="./home/assets/img/ssd xpg rgb 512gb.jpg" class="img-product"> </div>
+            <div> <img src="./assets/img/ssd xpg rgb 512gb.jpg" class="img-product"> </div>
 
             <div class="autor">
               <div class="img-container">
@@ -241,7 +250,7 @@
           <div class="card">
             <div class="data"> Roca <time>16/02/2022</time> </div>
             <h5>SSD Samsung 970 EVO Plus, 250GB, M.2 NVMe, Leitura 3500MB/s, Gravação 2300MB/s</h5>
-            <div> <img src="./home/assets/img/sdd evo samsung.jpg" class="img-product"> </div>
+            <div> <img src="./assets/img/sdd evo samsung.jpg" class="img-product"> </div>
 
             <div class="autor">
               <div class="img-container">
@@ -263,7 +272,7 @@
           <div class="card">
             <div class="data"> Roca <time>16/02/2022</time> </div>
             <h5>SSD Kingston A400, 480GB, SATA, Leitura 500MB/s, Gravação 450MB/s</h5>
-            <div> <img src="./home/assets/img/kingston 480gb.jpg" class="img-product"> </div>
+            <div> <img src="./assets/img/kingston 480gb.jpg" class="img-product"> </div>
 
             <div class="autor">
               <div class="img-container">
@@ -285,7 +294,7 @@
           <div class="card">
             <div class="data"> Roca <time>16/02/2022</time> </div>
             <h5>SSD WD Green PC SN350 480GB, PCIe, NVMe, Leitura: 2400MB/s, Escrita: 1650MB/s -</h5>
-            <div> <img src="./home/assets/img/wd m.2 green 480gb.jpg" class="img-product"> </div>
+            <div> <img src="./assets/img/wd m.2 green 480gb.jpg" class="img-product"> </div>
 
             <div class="autor">
               <div class="img-container">
@@ -307,7 +316,7 @@
           <div class="card">
             <div class="data"> Roca <time>16/02/2022</time> </div>
             <h5>SSD Adata XPG Gammix S11 Pro, 512GB, M.2 NVMe, Leitura 3500MB/s, Gravação 2300MB/s</h5>
-            <div> <img src="./home/assets/img/m.2 xpg 512gb red.jpg" class="img-product"> </div>
+            <div> <img src="./assets/img/m.2 xpg 512gb red.jpg" class="img-product"> </div>
 
             <div class="autor">
               <div class="img-container">
@@ -329,7 +338,7 @@
           <div class="card">
             <div class="data"> Roca <time>16/02/2022</time> </div>
             <h5>SSD Corsair Force Series MP510 480GB M.2 Leituras: 3480MB/s e Gravações: 2000MB/s</h5>
-            <div> <img src="./home/assets/img/m.2 corsair 480gb.jpg" class="img-product"> </div>
+            <div> <img src="./assets/img/m.2 corsair 480gb.jpg" class="img-product"> </div>
 
             <div class="autor">
               <div class="img-container">
@@ -358,7 +367,7 @@
           <div class="card">
             <div class="data"> Roca <time>16/02/2022</time> </div>
             <h5>Processador AMD Ryzen 5 PRO 4650GE 3.3GHz, 6-Cores 12-Threads, AM4, com vídeo integrado</h5>
-            <div> <img src="./home/assets/img/ryzen 5 pro 4650ge.jpg" class="img-product"> </div>
+            <div> <img src="./assets/img/ryzen 5 pro 4650ge.jpg" class="img-product"> </div>
 
             <div class="autor">
               <div class="img-container">
@@ -380,7 +389,7 @@
           <div class="card">
             <div class="data"> Roca <time>16/02/2022</time> </div>
             <h5>PROCESSADOR AMD RYZEN 5 3600X, 6-CORE, 12-THREADS, 3.8GHZ (4.4GHZ TURBO), CACHE 35MB, AM4 </h5>
-            <div> <img src="./home/assets/img/ryzen 5 3600x.jpg" class="img-product"> </div>
+            <div> <img src="./assets/img/ryzen 5 3600x.jpg" class="img-product"> </div>
 
             <div class="autor">
               <div class="img-container">
@@ -402,7 +411,7 @@
           <div class="card">
             <div class="data"> Roca <time>16/02/2022</time> </div>
             <h5>Processador AMD Ryzen 5 5600G, 3.9GHz (4.4GHz Max Turbo), AM4, Vídeo Integrado, 6 Núcleos</h5>
-            <div> <img src="./home/assets/img/ryzen 5 5600g.jpg" class="img-product"> </div>
+            <div> <img src="./assets/img/ryzen 5 5600g.jpg" class="img-product"> </div>
 
             <div class="autor">
               <div class="img-container">
@@ -424,7 +433,7 @@
           <div class="card">
             <div class="data"> Roca <time>16/02/2022</time> </div>
             <h5>PROCESSADOR AMD RYZEN 9 5900X, 12-CORE, 24-THREADS, 3.7GHZ (4.8GHZ TURBO), CACHE 70MB, AM4</h5>
-            <div> <img src="./home/assets/img/ryzen 9 590xx.jpg" class="img-product"> </div>
+            <div> <img src="./assets/img/ryzen 9 590xx.jpg" class="img-product"> </div>
 
             <div class="autor">
               <div class="img-container">
@@ -446,7 +455,7 @@
           <div class="card">
             <div class="data"> Roca <time>16/02/2022</time> </div>
             <h5>Processador Intel Core i5-10400, Cache 12MB, 2.9GHz (4.3GHz Max Turbo), LGA 1200</h5>
-            <div> <img src="./home/assets/img/intel core i5-10400.jpg" class="img-product"> </div>
+            <div> <img src="./assets/img/intel core i5-10400.jpg" class="img-product"> </div>
 
             <div class="autor">
               <div class="img-container">
@@ -468,7 +477,7 @@
           <div class="card">
             <div class="data"> Roca <time>16/02/2022</time> </div>
             <h5>Processador Intel Core i5 11400F 2.60GHz - 4.40GHz Turbo 12MB</h5>
-            <div> <img src="./home/assets/img/intel core i5-11400F.jpg" class="img-product"> </div>
+            <div> <img src="./assets/img/intel core i5-11400F.jpg" class="img-product"> </div>
 
             <div class="autor">
               <div class="img-container">
@@ -497,7 +506,7 @@
           <div class="card">
             <div class="data"> Roca <time>16/02/2022</time> </div>
             <h5>Placa de Vídeo Asus NVIDIA GeForce RTX 3090, 24GB, GDDR6X - ROG-STRIX-RTX3090</h5>
-            <div> <img src="./home/assets/img/rtx3090.jpg" class="img-product"> </div>
+            <div> <img src="./assets/img/rtx3090.jpg" class="img-product"> </div>
 
             <div class="autor">
               <div class="img-container">
@@ -518,9 +527,10 @@
 
           <div class="card">
             <div class="data"> Roca <time>16/02/2022</time> </div>
-            <h5>Placa de Vídeo Asus KO NVIDIA GeForce RTX3070 V2 Gaming, RGB, 14 Gbps, 8GB GDDR6, DLSS, LHR, Ray Tracing
+            <h5>Placa de Vídeo Asus KO NVIDIA GeForce RTX3070 V2 Gaming, RGB, 14 Gbps, 8GB GDDR6, DLSS, LHR, Ray
+              Tracing
             </h5>
-            <div> <img src="./home/assets/img/rtx3070LHR.jpg" class="img-product"> </div>
+            <div> <img src="./assets/img/rtx3070LHR.jpg" class="img-product"> </div>
 
             <div class="autor">
               <div class="img-container">
@@ -543,7 +553,7 @@
             <div class="data"> Roca <time>16/02/2022</time> </div>
             <h5>Placa de Vídeo Asus Dual NVIDIA GeForce RTX 3060 TI O8G Mini V2 OC, RGB, 8GB GDDR6, LHR, DLSS, Ray
               Tracing</h5>
-            <div> <img src="./home/assets/img/rtx3060ti2.jpg" class="img-product"> </div>
+            <div> <img src="./assets/img/rtx3060ti2.jpg" class="img-product"> </div>
 
             <div class="autor">
               <div class="img-container">
@@ -564,9 +574,10 @@
 
           <div class="card">
             <div class="data"> Roca <time>16/02/2022</time> </div>
-            <h5>Placa de Vídeo Zotac NVIDIA GeForce RTX 3060 Ti Twin Edge LHR, 8GB, 14.0 Gbps, GDDR6, DLSS, Ray Tracing
+            <h5>Placa de Vídeo Zotac NVIDIA GeForce RTX 3060 Ti Twin Edge LHR, 8GB, 14.0 Gbps, GDDR6, DLSS, Ray
+              Tracing
             </h5>
-            <div> <img src="./home/assets/img/rtx3060ti.jpg" class="img-product"> </div>
+            <div> <img src="./assets/img/rtx3060ti.jpg" class="img-product"> </div>
 
             <div class="autor">
               <div class="img-container">
@@ -588,7 +599,7 @@
           <div class="card">
             <div class="data"> Roca <time>16/02/2022</time> </div>
             <h5>Placa de Vídeo ASUS AMD Radeon RX 6700 XT, 16 Gbps, 12GB GDDR6 - ROG-STRIX</h5>
-            <div> <img src="./home/assets/img/rx6700xt.jpg" class="img-product"> </div>
+            <div> <img src="./assets/img/rx6700xt.jpg" class="img-product"> </div>
 
             <div class="autor">
               <div class="img-container">
@@ -609,9 +620,10 @@
 
           <div class="card">
             <div class="data"> Roca <time>16/02/2022</time> </div>
-            <h5>Placa de Vídeo XFX Speedster SWFT 210 AMD Radeon RX 6600 Core Gaming Graphics Card, 8GB GDDR6, AMD RDNA
+            <h5>Placa de Vídeo XFX Speedster SWFT 210 AMD Radeon RX 6600 Core Gaming Graphics Card, 8GB GDDR6, AMD
+              RDNA
               2</h5>
-            <div> <img src="./home/assets/img/rx6600xfx.jpg" class="img-product"> </div>
+            <div> <img src="./assets/img/rx6600xfx.jpg" class="img-product"> </div>
 
             <div class="autor">
               <div class="img-container">
@@ -638,7 +650,7 @@
     </br>
     </br>
     <h1> Avaliações dos Clientes </h1>
-    <div class="row-avaliacoes">
+    <div class="row">
       <div class="col-md-12">
         <div class="container cards">
           <div class="card card-avaliacoes avaliacoes1">
